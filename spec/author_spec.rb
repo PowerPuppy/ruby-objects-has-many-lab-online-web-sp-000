@@ -20,7 +20,7 @@ describe "Author" do
       it "has many posts" do
         expect(betty.posts).to be_a(Array)
         post = Post.new("My Post")
-        betty.add_song(post)
+        betty.add_post(post)
         #post.author = betty
         expect(betty.posts).to eq([post])
       end
