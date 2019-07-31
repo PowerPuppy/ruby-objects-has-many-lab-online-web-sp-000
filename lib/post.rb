@@ -13,4 +13,9 @@ class Post
       nil
     end
   end
+
+  def author
+    @author
+  end
+    
 end
