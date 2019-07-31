@@ -18,4 +18,8 @@ class Post
     @author
   end
 
+def self.all
+    @@all? { |e|  }
+end
+
 end
